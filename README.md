@@ -1,0 +1,1 @@
+A simple package to parse the WDS catalog into an astropy table.
