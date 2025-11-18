@@ -1,1 +1,1 @@
-import parse.parse_wdsweb 
+from .parse import parse_wdsweb 
