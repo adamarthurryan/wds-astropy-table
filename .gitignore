@@ -1,3 +1,4 @@
 */wdsweb_summ*.txt
 *.egg-info
 __pycache__
+dist
