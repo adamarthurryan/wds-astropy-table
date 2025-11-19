@@ -10,6 +10,7 @@ authors = [
 ]
 dependencies = [
     "astropy",
+    "numpy",
 ]
 description = "A simple package to parse the WDS catalog into an astropy table"
 license = "MIT"
