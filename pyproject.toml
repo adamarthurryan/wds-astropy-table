@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wds-astropy-table"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Adam Brown", email="adamarthurryan@gmail.com" },
 ]
@@ -16,4 +16,8 @@ description = "A simple package to parse the WDS catalog into an astropy table"
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
 readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["wds_astropy_table*"]
 
