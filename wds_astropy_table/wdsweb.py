@@ -26,7 +26,8 @@ wdsweb_header_lines = 4
 
 def parse_wdsweb(filename):
     table = parse_file(filename, wdsweb_columns, wdsweb_header_lines)
-    table['discoverer_normalized'] = np.strings.replace(np.strings.add(table['discoverer'], table['components']), ' ', '')
+    table['discoverer_normalized'] = np.strings.replace(table['discoverer'], ' ', '')
+    table['discoverer_component_normalized'] = np.strings.replace(np.strings.add(table['discoverer'], table['components']), ' ', '')
 
     return table
 
